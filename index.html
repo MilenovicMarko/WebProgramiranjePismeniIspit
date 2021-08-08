@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pismeni ispit 2019</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+    <header class="col-12">Ovde treba da bude slika</header>
+    </div>
+    <div class="row">
+    <nav >
+        <ul>
+            <li class="col-3">Pocetna</li>
+            <li class="col-3">Smestaj</li>
+            <li class="col-3">Rezervisi</li>
+            <li class="col-3">Kontakt</li>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="row">
+        <section class="col-3" id="godDoba">Slicica prolecta</section>
+        <article class="col-6">
+            <h3>Broj osoba i dana</h3>
+            <form action="">
+                <p>
+                <input type="number" min="0" id="brojOdraslih"> <label for="">Broj odraslih</label></p>
+                <p>
+                <input type="number" min="0" id="brojDece"> <label for="">Broj dece</label>
+                </p>
+                <p>
+                <input type="number" min="0" id ="brojDana"><label for="">Broj Dana</label>
+                </p>
+
+                <h3>Tip smestaja :</h3>
+                <input type="radio" name="smestaj" id="hotelskiSmestaj" checked>Hotelski smesta
+                <br>
+                <input type="radio" name="smestaj" id="privatniSmestaj">Privatni smestaj
+                <h3>Ostale pogodnosti :</h3>
+                <input type="checkbox" name="pogodnosti" id="wifi">Wi-Fi
+                <br>
+                <input type="checkbox" name="pogodnosti" id="bazen">Bazen
+                <br>
+                <input type="checkbox" name="pogodnosti" id="parking">Parking
+                <br>
+                <input type="checkbox" name="pogodnosti" id="klima">Klima
+                <br>
+                <input type="checkbox" name="pogodnosti" id="kuhinja">Kuhinja
+                <br>
+                <button type="submit" class="izracunaj">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </article>
+        <aside class="col-3">
+            <h3>
+                Cena smestaja:
+            </h3>
+            <div class="formDeo">
+
+            </div>
+        </aside>
+    </div>
+    
+
+
+<script src="script.js"></script>
+</body>
+</html>
